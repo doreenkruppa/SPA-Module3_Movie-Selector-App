@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  position: relative;
+}
+
+section {
+  text-align: center;
+  width: 75%;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 20%;
+}
+
+section.active {
+  opacity: 1;
+}
+
+aside {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+}
+aside li {
+  list-style-type: none;
+  font-size: 1.2vw;
+  font-family: "Franklin Gothic";
+  background: rgb(149, 149, 228);
+  color: white;
+  padding: 2.1vw 1.5vw;
+  flex-grow: 1;
+}
+
+.selected {
+  background: rgb(163, 99, 216);
+}
+
+section h3,
+section p {
+  margin: 3vw;
+  font-family: "Franklin Gothic";
+  font-size: 2.2vw;
+}
+
+section p {
+  font-size: 1.5vw;
+  text-align: justify;
+  padding: 0 5vw;
+}
+
+section img {
+  width: 35%;
+  height: 25vw;
+}
