@@ -9,7 +9,7 @@ Oriented to the demo.gif I wrote a js-function that adds and handles a dynamic p
 
 ### My Version:
 
-![](./img/my_version.png)
+![](./ezgif.com-animated-gif-maker.gif)
 
 ### Mockup:
 
